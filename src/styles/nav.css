@@ -70,7 +70,7 @@
   @media screen and (max-width: 768px) {
 
     .navbar-container {
-      padding: 0; 
+      padding: 0 1em; 
 
     }
     .email-btn , .call-btn {
