@@ -11,12 +11,12 @@ export default function Contact() {
         </div>
         <h2 class="responsive-text">Feel free to reach out to us for any queries <span class="desktop-break"></span> or collaboration opportunities</h2>
         <div className="contact-info">
-        <a href="mailto:someone@example.com" className="email-btn-contact">
+        <a href="mailto:techdoodle2025@gmail.com" className="email-btn-contact">
         <span>&#9993;</span> Email
       </a>
 
       <a
-        href="https://wa.me/1234567890" // Replace with your phone number
+        href="https://wa.me/9941801937" 
         className="call-btn-contact"
         target="_blank"
         rel="noopener noreferrer"

@@ -13,7 +13,7 @@ export default function Navbar() {
       }
     
       const handleCall = () => {
-        const phoneNumber = "tel:+1234567890"; // Replace with the actual phone number
+        const phoneNumber = "tel:+91 9941801937"; // Replace with the actual phone number
         window.location.href = phoneNumber;
       }
 
@@ -32,26 +32,26 @@ export default function Navbar() {
             {/* mobile view */}
             
             <div className="navbar-left">
-            <a href="mailto:someone@example.com" className="email-btn">
+            <a href="mailto:techdoodle2025@gmail.com" className="email-btn">
                 Email
             </a>
 
-            <a href="tel:+1234567890" className="call-btn">
+            <a href="tel:+91 9941801937" className="call-btn">
                 Call
             </a>
             </div>
 
             <div className="navbar-right">
 
-                <a href="https://www.instagram.com/yourprofile" className="social-icon" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
 
-                <a href="https://www.linkedin.com/in/yourprofile" className="social-icon" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
 
-                <a href="https://www.facebook.com/yourprofile" className="social-icon" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
 
