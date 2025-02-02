@@ -1,0 +1,105 @@
+.navbar-container {
+    background-color: #f1f0ef;
+    /* border: 1px solid #242424; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;   
+    padding: 0 2em; 
+}
+
+.navbar-left {
+  display: none;
+}
+
+.navbar-desktop {
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+}
+
+.navbar-email {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: #e9e3e3aa;
+    padding: 0.4em 0.5em 0.4em 1em;
+    border-radius: 3.3em;
+    margin: 0 1em;
+}
+
+.desktop-btn {
+    background-color: white;
+    padding: 1em 1.8em;
+    border-radius: 1.5em;
+    border: 1px solid #24242484;
+}
+
+
+
+
+
+/* Style for social media icons */
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;  
+    color: #242424; 
+    text-decoration: none; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); 
+  }
+  
+  .social-icon a {
+    color: inherit;  
+  }
+  
+ 
+  .social-icon i {
+    font-size: 1rem; 
+  }
+  
+  /* .social-icon:hover {
+    color: #ffffff;
+    background-color: #242424;
+    border-radius: 50%;
+  } */
+
+  @media screen and (max-width: 768px) {
+
+    .navbar-container {
+      margin: 0 1em;
+      padding: 0; 
+
+    }
+    .email-btn , .call-btn {
+      padding: 0.7em 1.5em;
+      border-radius: 1.5em;
+      border: none;
+  }
+  
+  .email-btn {
+      color: white;
+      background-color: black;
+      margin-right: 1em;
+  
+  }
+  
+  .call-btn {
+      color: rgb(0, 0, 0);
+      background-color: #c3bdbd;
+  
+  }
+
+  .navbar-left {
+    display: flex;
+  }
+
+.navbar-desktop{
+  display: none;
+}
+    
+  }
+  
