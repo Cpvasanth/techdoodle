@@ -13,7 +13,7 @@ export default function Navbar() {
       }
     
       const handleCall = () => {
-        const phoneNumber = "tel:+91 9941801937"; // Replace with the actual phone number
+        const phoneNumber = "tel:+91 9941801937"; 
         window.location.href = phoneNumber;
       }
 

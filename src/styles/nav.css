@@ -1,6 +1,5 @@
 .navbar-container {
     background-color: #f1f0ef;
-    /* border: 1px solid #242424; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +66,15 @@
     border-radius: 50%;
   } */
 
+
+/* Responsive grid for smaller screens */
+
   @media screen and (max-width: 768px) {
 
     .navbar-container {
-      padding: 0 1em; 
-
+      padding: 0; 
+      margin: 0;
+     
     }
     .email-btn , .call-btn {
       padding: 0.7em 1.5em;
@@ -94,6 +97,9 @@
 
   .navbar-left {
     display: flex;
+    margin-left: 1em;
+
+    
   }
 
 .navbar-desktop{

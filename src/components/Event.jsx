@@ -2,16 +2,16 @@ import React from "react";
 import "../styles/event.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faChalkboardTeacher, // Paper presentation
-  faCode, // Debugging
-  faBrain, // Technical Quiz
-  faLaptopCode // Web Development Contest
+  faChalkboardTeacher, 
+  faCode, 
+  faBrain, 
+  faLaptopCode 
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Event() {
   return (
     <div className="event-container">
-      <h1>Event</h1>
+      <h1>Events</h1>
       <div className="events">
 
         <div className="event-detail">

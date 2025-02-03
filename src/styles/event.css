@@ -1,5 +1,6 @@
 .event-container {
-  min-height: 80vh;
+  height: 60vh;
+  
   font-family: Helvetica, Arial, sans-serif;
   background-color: #f1f0ef;
   border-top: 1px solid #ded8d2;
@@ -14,20 +15,23 @@
 .event-container h1 {
   font-size: 2rem;
   color: #343131;
-
+  background-color: #ffffff;
+  border: 1px solid #ded8d2;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .events {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+
   max-width: 100%;
   gap: 1em;
   margin: 1em 0.5em;
 }
 
 .event-detail {
-  text-align: left;
-  padding: 20px;
+  text-align: center;
 }
 
 .event-detail h3 {
@@ -37,9 +41,10 @@
 }
 
 .event-detail p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #555;
   margin-top: 15px;
+  text-overflow: clip;
 }
 
 .event-detail svg {
@@ -50,7 +55,16 @@
 
 /* Responsive grid for larger screens */
 @media (min-width: 768px) {
+
+  .event-container {
+    height: 50vh;
+  }
   .events {
       grid-template-columns: repeat(4, 1fr);
+  }
+
+  .event-detail {
+    text-align: left;
+    padding: 20px;
   }
 }
