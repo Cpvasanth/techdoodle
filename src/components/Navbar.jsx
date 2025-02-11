@@ -13,7 +13,7 @@ export default function Navbar() {
       }
     
       const handleCall = () => {
-        const phoneNumber = "tel:+91 9941801937"; 
+        const phoneNumber = "tel:+91 8754327976"; 
         window.location.href = phoneNumber;
       }
 
@@ -36,7 +36,7 @@ export default function Navbar() {
                 Email
             </a>
 
-            <a href="tel:+91 9941801937" className="call-btn">
+            <a href="tel:+91 8754327976" className="call-btn">
                 Call
             </a>
             </div>
