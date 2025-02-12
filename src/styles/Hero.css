@@ -92,10 +92,12 @@ img , h2 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      height: 70vh;
+
     }
 
     .hero-image {
-      margin-top: 0px;
+      margin-top: 4em;
     }
 
 }

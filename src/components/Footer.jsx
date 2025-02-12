@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer">
         <div>
         <a href="https://www.linkedin.com/in/cpvasanth/" aria-label="LinkedIn Profile of Vasa">
-        <h2 className="footer-h2">Developed by Vasa&hearts;</h2>
+        <h2 className="footer-h2">Vasa&hearts;</h2>
         </a>
         </div>
 
