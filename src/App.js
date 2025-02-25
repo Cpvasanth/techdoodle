@@ -6,6 +6,12 @@ import Event from './components/Event';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+// Developed by Vasa
+// GitHub: https://github.com/Cpvasanth/techdoodle
+// Instagram: https://www.instagram.com/vasa.ig/
+
+
+
 function App() {
   return (
     <div className="App">
