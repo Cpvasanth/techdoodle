@@ -5,14 +5,20 @@ import nikeLogo from "../assets/images/nike.png";
 import dark from "../assets/images/dark.png";
 import cp from "../assets/images/cp.png";
 import AmbalStore from "../assets/images/AmbalStore.png";
+import sponsors from "../assets/images/sponsors.png";
+import placeholder from "../assets/images/placeholder.jpg";
+
+
 
 export default function Sponsor() {
   const logos = [
-    { src: zohoLogo, alt: "Zoho" },
-    { src: dark, alt: "Dark" },
-    { src: nikeLogo, alt: "Nike" },
-    { src: AmbalStore, alt: "AmbalStore" },
+    // { src: zohoLogo, alt: "Zoho" },
+    // { src: dark, alt: "Dark" },
+    // { src: nikeLogo, alt: "Nike" },
+    // { src: AmbalStore, alt: "AmbalStore" },
     { src: cp, alt: "CP" },
+    { src: sponsors , alt: "sponsor logo place holder" },
+    { src: placeholder , alt: "sponsor logo place holder" },
   ];
 
   return (

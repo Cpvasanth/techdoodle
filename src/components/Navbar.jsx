@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/nav.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram , faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram , faXTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 export default function Navbar() {
 
@@ -47,11 +47,11 @@ export default function Navbar() {
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
 
-                <a href="https://www.linkedin.com/in/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                <a href="https://www.X.com/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faXTwitter} size="2x" />
                 </a>
 
-                <a href="https://www.facebook.com/techdoodle2025" className="social-icon" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61572684644333" className="social-icon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
 
