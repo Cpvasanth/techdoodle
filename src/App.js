@@ -5,6 +5,7 @@ import Sponsor from './components/Sponsor';
 import Event from './components/Event';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Incharges from './components/Incharges';
 
 // Developed by Vasa
 // GitHub: https://github.com/Cpvasanth/techdoodle
@@ -19,6 +20,7 @@ function App() {
       <HeroSection/>
       <Sponsor/>
       <Event/>
+      {/* <Incharges/> */}
       <Contact/>
       <Footer/>
     </div>
