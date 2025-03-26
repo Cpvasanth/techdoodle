@@ -44,7 +44,6 @@ export default function Sponsor() {
         ))}
       </div>
     </div>
-    {/* <h2 className="sponsor-ending">Collaborate with brands and agencies to create impactful results</h2> */}
   </div>
    
   );

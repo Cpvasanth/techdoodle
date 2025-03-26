@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection/>
-      <Sponsor/>
+      {/* <Sponsor/> */}
       <Event/>
       {/* <Incharges/> */}
       <Contact/>

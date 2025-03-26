@@ -21,7 +21,7 @@ export default function Event() {
         <div className="event-detail">
           <FontAwesomeIcon icon={faChalkboardTeacher} />
           <h3>Paper presentation <br></br></h3>
-          <p>Showcase innovative ideas through research and presentations in symposium. <br/> <span style={{color: "red"}}>Paper submission last date: 10TH March 2025</span></p>
+          {/* <p>Showcase innovative ideas through research and presentations in symposium. <br/> <span style={{color: "red"}}>Paper submission last date: 15TH March 2025</span></p> */}
         </div>
 
         <div className="event-detail">
