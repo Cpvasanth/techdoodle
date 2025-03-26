@@ -2,7 +2,7 @@ import React from "react";
 import Countdown from "./Countdown";
 import "../styles/Hero.css";
 import srecLogo from "../assets/images/logo.png";
-import pdf from "../assets/TECHDOODLE_2K25_RULES_AND_GUIDELINES.pdf";
+import pdf from "../assets/TECHDOODLE_2K25.pdf";
 
 export default function HeroSection() {
   const techDoodleTarget = new Date(new Date().getFullYear(), 2, 28).getTime(); // March 28
